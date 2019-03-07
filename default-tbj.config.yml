@@ -20,54 +20,86 @@ homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
   - bash-completion
+  - composer
+  - cowsay
+  - dnsmasq
   - doxygen
   - gettext
   - gifsicle
   - git
+  - git-flow
+  - git-lfs
   - go
   - gpg
-  - hub
+  - httpd
   - httpie
+  - hub
   - iperf
   - libevent
-  - sqlite
+  - lynx
+  - mariadb
   - mcrypt
+  - midnight-commander
+  - nano
+  - ncdu
   - nmap
   - node
   - nvm
-  - php
-  - ssh-copy-id
-  - cowsay
-  - readline
   - openssl
+  - pandoc
+  - php
   - pv
+  - readline
+  - rename
+  - sqlite
+  - ssh-copy-id
+  - tesseract
   - wget
   - wrk
+  - zsh-autosuggestions
+  - zsh-completions
+  - zsh-history-substring-search
+
+
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - homebrew/cask-versions
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
+  - dash3
   - docker
   - dropbox
+  - fantastical
   - firefox
   - google-chrome
   - handbrake
+  - install-disk-creator
   - licecap
   - limechat
-  - macvim
+  - logmein-hamachi
+  - mathpix-snipping-tool
   - sequel-pro
-  - skitch
-  - slack
+  - sourcetree
   - sublime-text
   - transmit
+  - typora
   - vagrant
+  - vlc
+  - whatsapp
+  - yacreader
+homebrew_cask_uninstalled_apps:
+  - chromedriver
+  - macvim
+  - skitch
+  - slack
+homebrew_upgrade_all_packages: no
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps: 
+  - { id: 425264550, name: "Blackmagic Disk Speed Test (3.0)" }
 mas_email: ""
 mas_password: ""
 
@@ -76,7 +108,8 @@ osx_script: "~/.osx --no-restart"
 # Install packages from other package managers.
 # Note: You are responsible for making sure the required package managers are
 # installed, eg. through homebrew.
-composer_packages: []
+composer_packages: 
+  - name: hirak/prestissimo
   # - name: drush
   #   state: present # present/absent, default: present
   #   version: "^8.1" # default: N/A
@@ -84,11 +117,13 @@ gem_packages: []
   # - name: bundler
   #   state: present # present/absent/latest, default: present
   #   version: "~> 1.15.1" # default: N/A
-npm_packages: []
+npm_packages: 
+  - name: yarn
   # - name: webpack
   #   state: present # present/absent/latest, default: present
   #   version: "^2.6" # default: N/A
-pip_packages: []
+pip_packages: 
+  - name: mkdocs
   # - name: mkdocs
   #   state: present # present/absent/latest, default: present
   #   version: "0.16.3" # default: N/A
