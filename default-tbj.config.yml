@@ -20,21 +20,29 @@ homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
   - bash-completion
+  - brew-php-switcher
   - composer
   - cowsay
   - dnsmasq
   - doxygen
+  - exolnet/deprecated/php@5.6
+  - exolnet/deprecated/php@7.0
   - gettext
   - gifsicle
   - git
   - git-flow
   - git-lfs
   - go
+  - gource
   - gpg
+  - hashcat
   - httpd
   - httpie
   - hub
+  - imagemagick
   - iperf
+  - jpeg
+  - jpegoptim
   - libevent
   - lynx
   - mariadb
@@ -42,59 +50,92 @@ homebrew_installed_packages:
   - midnight-commander
   - nano
   - ncdu
+  - ngrep
   - nmap
   - node
   - nvm
   - openssl
+  - optipng
   - pandoc
+  - pbzip2
   - php
+  - php@7.1
+  - php@7.2
+  - pngcrush
   - pv
+  - qcachegrind
   - readline
   - rename
   - sqlite
   - ssh-copy-id
   - tesseract
+  - tree
+  - watch
+  - wget
   - wget
   - wrk
+  - z
   - zsh-autosuggestions
   - zsh-completions
   - zsh-history-substring-search
 
 
-
 homebrew_taps:
-  - homebrew/core
+  - exolnet/deprecated
   - homebrew/cask
   - homebrew/cask-versions
+  - homebrew/core
+  - homebrew/services
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - adobe-creative-cloud
+  - alfred
+  - atom
+  - ccleaner
   - dash3
+  - dictionaries
   - docker
   - dropbox
   - fantastical
   - firefox
+  - fluor
   - google-chrome
   - handbrake
   - install-disk-creator
+  - istat-menus
   - licecap
   - limechat
   - logmein-hamachi
   - mathpix-snipping-tool
+  - mia-for-gmail
+  - mplayerx
+  - pullover
+  - rescuetime
   - sequel-pro
   - sourcetree
+  - spectacle
   - sublime-text
+  - the-unarchiver
+  - transmission
   - transmit
+  - tripmode
   - typora
   - vagrant
+  - visual-studio-code
   - vlc
+  - vmware-fusion
   - whatsapp
+  - wkhtmltopdf
   - yacreader
+  - yed
+
 homebrew_cask_uninstalled_apps:
   - chromedriver
   - macvim
   - skitch
   - slack
+
 homebrew_upgrade_all_packages: no
 
 # See `geerlingguy.mas` role documentation for usage instructions.
