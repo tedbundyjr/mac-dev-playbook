@@ -1,23 +1,34 @@
 {
-	"auto_upgrade_last_run": null,
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
-		"DashDoc",
+		"A File Icon",
+		"ApacheConf",
+		"BracketGuard",
+		"BracketHighlighter",
+		"CodeFormatter",
 		"DocBlockr",
-		"Dockerfile Syntax Highlighting",
-		"Drupal Snippets",
-		"FileDiffs",
-		"GitHub Flavored Markdown Preview",
-		"Jinja2",
-		"MarkAndMove",
-		"Markdown Preview",
+		"Git",
+		"GitGutter",
+		"GitSavvy",
+		"Guna",
+		"JSON Reindent",
+		"Log Highlight",
+		"MoveTab",
 		"Package Control",
-		"Puppet",
-		"RegReplace",
-		"Sass",
-		"SublimeCodeIntel",
+		"phpfmt",
+		"PlainTasks",
+		"ProjectManager",
+		"rainbow_csv",
+		"SideBarEnhancements",
+		"SourceTree",
+		"SqlBeautifier",
 		"SublimeLinter",
-		"TrailingSpaces",
-		"Xdebug Client"
+		"SublimeLinter-php",
+		"Typora Markdown App (OSX)",
+		"Worksheet"
 	]
 }
