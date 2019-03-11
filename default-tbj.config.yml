@@ -28,6 +28,7 @@ homebrew_installed_packages:
   - exolnet/deprecated/php@5.6
   - exolnet/deprecated/php@7.0
   - gettext
+  - ffmpeg
   - gifsicle
   - git
   - git-flow
@@ -35,6 +36,7 @@ homebrew_installed_packages:
   - go
   - gource
   - gpg
+  - graphicsmagick
   - hashcat
   - httpd
   - httpie
@@ -66,8 +68,10 @@ homebrew_installed_packages:
   - qcachegrind
   - readline
   - rename
+  - rsync
   - sqlite
   - ssh-copy-id
+  - the_silver_searcher
   - tesseract
   - tree
   - watch
@@ -150,6 +154,7 @@ osx_script: "~/.osx --no-restart"
 # Note: You are responsible for making sure the required package managers are
 # installed, eg. through homebrew.
 composer_packages: 
+  - name: drush/drush
   - name: hirak/prestissimo
   # - name: drush
   #   state: present # present/absent, default: present
@@ -159,6 +164,14 @@ gem_packages: []
   #   state: present # present/absent/latest, default: present
   #   version: "~> 1.15.1" # default: N/A
 npm_packages: 
+  - name: alfred-fkill
+  - name: castnow
+  - name: fkill-cli
+  - name: gify
+  - name: git-pull-all
+  - name: pm2
+  - name: tldr
+  - name: vtop
   - name: yarn
   # - name: webpack
   #   state: present # present/absent/latest, default: present
