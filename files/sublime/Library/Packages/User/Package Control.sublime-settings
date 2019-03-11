@@ -27,6 +27,7 @@
 		"SourceTree",
 		"SqlBeautifier",
 		"SublimeLinter",
+		"SublimeLinter-contrib-yamllint",
 		"SublimeLinter-php",
 		"Typora Markdown App (OSX)",
 		"Worksheet"
