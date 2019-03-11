@@ -11,10 +11,12 @@ dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
 dotfiles_files:
   - .bash_profile
+  - .gitconfig
   - .gitignore
   - .inputrc
   - .osx
   - .vimrc
+  - .zshrc
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
@@ -73,6 +75,7 @@ homebrew_installed_packages:
   - ssh-copy-id
   - the_silver_searcher
   - tesseract
+  - thefuck
   - tree
   - watch
   - wget
@@ -101,6 +104,7 @@ homebrew_cask_apps:
   - dictionaries
   - docker
   - dropbox
+  - etcher
   - fantastical
   - firefox
   - fluor
