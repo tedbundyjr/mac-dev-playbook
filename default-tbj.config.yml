@@ -15,6 +15,7 @@ dotfiles_files:
   - .gitignore
   - .inputrc
   - .osx
+  - .ssh/config
   - .vimrc
   - .zshrc
 
@@ -116,7 +117,7 @@ homebrew_cask_apps:
   - limechat
   - logmein-hamachi
   - mathpix-snipping-tool
-  - mia-for-gmail
+  # - mia-for-gmail
   - mplayerx
   - pullover
   - rescuetime
@@ -149,7 +150,19 @@ homebrew_upgrade_all_packages: no
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: 
-  - { id: 425264550, name: "Blackmagic Disk Speed Test (3.0)" }
+  - { id: 412759995, name: "Guidance (2.0.8)" }
+  - { id: 639764244, name: "Xee³ (3.5.3)" }
+  - { id: 408981434, name: "iMovie (10.1.10)" }
+  - { id: 409183694, name: "Keynote (8.3)" }
+  - { id: 411673888, name: "EasyFind (4.9.3)" }
+  - { id: 1185488696, name: "Money (5.6.7)" }
+  - { id: 585829637, name: "Todoist (7.1.2)" }
+  - { id: 409201541, name: "Pages (7.3)" }
+  - { id: 425264550, name: "Blackmagic Disk Speed Test (3.2)" }
+  - { id: 411622604, name: "Quran Majeed (3.5)" }
+  - { id: 1293083751, name: "GSE SMART IPTV (3.7)" }
+  - { id: 411643860, name: "DaisyDisk (4.6.5)" }
+  - { id: 409203825, name: "Numbers (5.3)" }
 mas_email: ""
 mas_password: ""
 
