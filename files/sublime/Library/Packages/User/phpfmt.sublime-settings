@@ -1,11 +1,8 @@
 {
     "autocomplete": true,
-    "excludes":
-    [
-    ],
+    "excludes": [],
     "format_on_save": true,
-    "passes":
-    [
+    "passes": [
         "ShortArray",
         "NewLineBeforeReturn",
         "GeneratePHPDoc",

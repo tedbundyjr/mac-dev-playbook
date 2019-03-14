@@ -1,0 +1,9 @@
+// Specify your own settings. You don't need to restart
+{
+	"sidebar_widget": "clock",
+	"weather": {
+		"appid": "93f54b35b26734f1e81cfa64f22cb5ae",      // - http://openweathermap.org/appid
+		"city_name": "Kuala Lumpur, MY",  // - city name, country code e.g) seoul,KR
+		"proxy": ""       // - http proxy e.g) 10.75.97.11:8080 - if needed
+	},
+}
